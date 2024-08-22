@@ -1,0 +1,214 @@
+body
+{
+ overflow: hidden;
+ background-color:black;
+}
+#svgbox
+{
+    width:70vmin;
+    height:70vmin;
+    display:block;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+} 
+.text
+{
+fill:white;
+}
+.outer-design
+{
+    stroke:white;
+    stroke-width: .2;
+    fill:transparent;
+    
+}
+.small-circle{
+    stroke-width: .2;
+    transform-origin:50px 50px;
+    animation: rotateCircle 4s linear infinite;
+    animation-delay: calc(var(--i) * 0.2s); 
+    
+}
+@keyframes rotateCircle {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.color-1 { fill: #1f0d3b; }
+.color-2 { fill: #056a6f; }
+.color-3 { fill: #7e0e50; }
+.color-4 { fill: #992937; }
+.color-5 { fill: #002d68; }
+.color-6 { fill: #105602; }
+.color-7 { fill: #a01b2f; }
+.color-8 { fill: #902a30; }
+.color-9 { fill: #24113e; }
+.color-10 { fill: #006065; }
+.color-11 { fill: rgb(135,20,89); }
+.color-12 { fill: rgb(135,20,89); }
+.color-13 { fill: #002f68; }
+.color-14 { fill: #155707 }
+
+.sticker
+{
+    fill:#7e1723;
+}
+.sticker-1{
+    stroke:white;
+    stroke-width:1
+}
+.lips
+{
+    stroke:red;
+   
+}
+.lips-middle
+{
+    stroke:#7e1723;
+    fill:red;
+}
+.eyebrows
+{
+    stroke:white;
+    stroke-width:1.5
+}
+.above-eye-line
+{
+    stroke:white;
+    stroke-width:.6
+}
+.below-eye-line
+{
+    stroke:white;
+    stroke-width:0.3
+}
+.eyes-circle
+{
+    stroke:white;
+    stroke-width:.3
+}
+.eye-inner-circles
+{
+    stroke:white;
+stroke-width:.25
+
+}
+.nose
+{
+    stroke:white;
+    stroke-width:.4
+}
+.nose-ring
+{
+    stroke:#af9c28;
+    stroke-width:.5;
+}
+.nose-design
+{
+    stroke:white;
+    stroke-width:.4
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 2table
+Big circle 
+clock down
+counter clock up 
+10 =20
+20=40
+30=60
+40=80
+50=100
+60=120
+70=140
+80=160
+90=180
+100=200
+110=220
+120=240
+130=260
+140=280
+180=300
+190=320
+200=340
+210=360*
+
+
+for 300=5
+200=3
+100=1/
+
